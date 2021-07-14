@@ -1,0 +1,118 @@
+{ 
+    "_id" : ObjectId("60deb75a1a872638f02eb7e2"), 
+    "type" : "VERIFICATION", 
+    "registration_group" : [
+        {
+            "_id" : "60d033aded0a601f9c1a5d75", 
+            "title" : "0101 Accommodation / Tenancy Assistance"
+        }, 
+        {
+            "_id" : "60d033a5ed0a601f9c1a5d71", 
+            "title" : "0103 Assistive Products for Personal Care and Safety"
+        }
+    ], 
+    "status_view" : "SLASIGNED", 
+    "status" : "SLASIGNED", 
+    "isPayment" : NumberInt(1), 
+    "title" : "Numquam iste omnis e", 
+    "company_id" : ObjectId("60d03460ed0a601f9c1a5d8f"), 
+    "audit_number" : "97749083", 
+    "size_of_company" : NumberInt(150), 
+    "number_of_clients" : NumberInt(120), 
+    "remarks" : "Quis quis ut incidun", 
+    "amount" : NumberInt(150000), 
+    "invoice_number" : NumberInt(6400120), 
+    "sla_document_name" : "Proposal Document _Audit Company_Website Application_Octal_V3[1].pdf", 
+    "sla_document" : "1625208666477.pdf", 
+    "sla_document_old" : "1625208666477.pdf", 
+    "invoice_document_name" : "Logo Guide Outline.pdf", 
+    "invoice_document" : "1625208666491.pdf", 
+    "invoice_document_old" : "1625208666491.pdf", 
+    "created_at" : ISODate("2021-07-02T06:51:06.494+0000"), 
+    "updated_at" : ISODate("2021-07-05T09:41:05.843+0000"), 
+    "slug" : "numquam-iste-omnis-e", 
+    "__v" : NumberInt(0), 
+    "sla_document_sign" : "1625462048110.pdf", 
+    "sla_document_sign_name" : "Logo Guide Outline.pdf", 
+    "sla_document_sign_old" : "1625462048110.pdf", 
+    "is_advance" : NumberInt(1), 
+    "is_final" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("60e2ef82b733157ee8948ee4"), 
+    "type" : "VERIFICATION", 
+    "registration_group" : [
+        {
+            "_id" : "60d032ffed0a601f9c1a5d21", 
+            "title" : "0135 Custom Prosthetics"
+        }, 
+        {
+            "_id" : "60d03318ed0a601f9c1a5d2d", 
+            "title" : "0128 Therapeutic Supports"
+        }
+    ], 
+    "status_view" : "SLASIGNED", 
+    "status" : "PROGRESS", 
+    "isPayment" : NumberInt(1), 
+    "is_advance" : NumberInt(1), 
+    "is_final" : NumberInt(1), 
+    "title" : "Facere sint deserunt", 
+    "company_id" : ObjectId("60d03460ed0a601f9c1a5d8f"), 
+    "audit_number" : "33887657", 
+    "size_of_company" : NumberInt(150), 
+    "number_of_clients" : NumberInt(587), 
+    "remarks" : "Quos earum quo dolor", 
+    "amount" : NumberInt(25000), 
+    "invoice_number" : NumberInt(32145000), 
+    "sla_document_name" : "Logo Guide Outline.pdf", 
+    "sla_document" : "1625485186220.pdf", 
+    "sla_document_old" : "1625485186220.pdf", 
+    "invoice_document_name" : "Logo Guide Outline.pdf", 
+    "invoice_document" : "1625485186223.pdf", 
+    "invoice_document_old" : "1625485186223.pdf", 
+    "created_at" : ISODate("2021-07-05T11:39:46.228+0000"), 
+    "updated_at" : ISODate("2021-07-05T11:43:13.988+0000"), 
+    "slug" : "facere-sint-deserunt", 
+    "__v" : NumberInt(0), 
+    "sla_document_sign" : "1625485378044.pdf", 
+    "sla_document_sign_name" : "Logo Guide Outline.pdf", 
+    "sla_document_sign_old" : "1625485378044.pdf"
+}
+{ 
+    "_id" : ObjectId("60e6e95efa1f8320441a1039"), 
+    "type" : "VERIFICATION", 
+    "registration_group" : [
+        {
+            "_id" : "60d032ffed0a601f9c1a5d21", 
+            "title" : "0135 Custom Prosthetics"
+        }, 
+        {
+            "_id" : "60d0330ded0a601f9c1a5d29", 
+            "title" : "0129 Specialised Driver Training"
+        }
+    ], 
+    "status_view" : "SLAUPLOADED", 
+    "status" : "SLAUPLOADED", 
+    "isPayment" : NumberInt(0), 
+    "is_advance" : NumberInt(0), 
+    "is_final" : NumberInt(0), 
+    "sign_type" : "NO", 
+    "title" : "Omnis quia dolores d", 
+    "company_id" : ObjectId("60d03460ed0a601f9c1a5d8f"), 
+    "audit_number" : "18273671", 
+    "size_of_company" : NumberInt(100), 
+    "number_of_clients" : NumberInt(953), 
+    "remarks" : "Quasi ut accusamus i", 
+    "amount" : NumberInt(15000), 
+    "invoice_number" : NumberInt(572), 
+    "sla_document_name" : "Logo Guide Outline.pdf", 
+    "sla_document" : "1625745758060.pdf", 
+    "sla_document_old" : "1625745758060.pdf", 
+    "invoice_document_name" : "Logo Guide Outline.pdf", 
+    "invoice_document" : "1625745758065.pdf", 
+    "invoice_document_old" : "1625745758065.pdf", 
+    "created_at" : ISODate("2021-07-08T12:02:38.070+0000"), 
+    "updated_at" : ISODate("2021-07-08T12:02:38.070+0000"), 
+    "slug" : "omnis-quia-dolores-d", 
+    "__v" : NumberInt(0)
+}

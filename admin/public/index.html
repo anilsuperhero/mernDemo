@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Title -->
+    <title>CAA</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0, minimal-ui" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Anil Sharma" />
+    <meta name="theme-color" content="#000000" />
+    <!-- Favicon & Manifest -->
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Google Fonts Style -->
+
+    <link href="%PUBLIC_URL%/assets/fonts/datta/datta-icons.css" rel="stylesheet" />
+    <link href="%PUBLIC_URL%/assets/fonts/feather/icon-font.css" rel="stylesheet" />
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('worker.js').then(function (registration) {
+                    console.log('Worker registration successful', registration.scope);
+                }, function (err) {
+                    console.log('Worker registration failed', err);
+                }).catch(function (err) {
+                    console.log(err);
+                });
+            });
+        } else {
+            console.log('Service Worker is not supported by browser.');
+        }
+    </script>
+</body>
+
+</html>

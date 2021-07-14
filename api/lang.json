@@ -1,0 +1,259 @@
+{
+    "email is already registered.": {
+        "en": "Email is already registered."
+    },
+    "mobile_number is already registered.": {
+        "en": "Mobile number is already registered."
+    },
+    "EMAIL_NUMBER_ALREADY_USED": {
+        "en": "Email address is already used."
+    },
+    "MOBILE_NUMBER_ALREADY_USED": {
+        "en": "Mobile number is already used."
+    },
+    "REGISTRATION_DONE": {
+        "en": "Registration done successfully."
+    },
+    "INVALID_LOGIN": {
+        "en": "Invalid email or password."
+    },
+    "ACCOUNT_DEACTIVE": {
+        "en": "Your account has been disabled by the administrator."
+    },
+    "ACCOUNT_LOGIN": {
+        "en": "Login successfully."
+    },
+    "FORGOT_PASSWORD_EMAIL": {
+        "en": "We're sorry. We weren't able to identify you by provided email address."
+    },
+    "FORGOT_PASSWORD_OTP":{
+        "en": "We've sent OTP to the registered email address."
+    },
+    "SOMETHING_WENT_WRONG":{
+        "en": "Something went wrong, Please try again."
+    },
+    "DATA_NOT_FOUND":{
+        "en": "Sorry data not found."
+    },
+    "DATA_RECEIVED":{
+        "en": "Data received successfully."
+    },
+    "RECODE_CREATED":{
+        "en": "Record created successfully."
+    },
+    "SETTING_UPDATE":{
+        "en": "Setting updated successfully."
+    },
+    "EMAIL_HEADER":{
+        "en": "Please enter email header."
+    },
+    "EMAIL_FOOTER":{
+        "en": "Please enter email footer."
+    },
+    "PASSWORD_UPDATE":{
+        "en": "Password updated successfully."
+    },
+    "CURRENT_PASSWORD_NOT_MATCH":{
+        "en": "Current password does not match. Please try again."
+    },
+    "PROFILE_UPDATE":{
+        "en": "Profile updated successfully."
+    },
+    "unauthorized":{
+        "en": "Token is expired please login again."
+    },
+    "TITLE_ALREADY_USED":{
+        "en": "Title is already used."
+    },
+    "is already used":{
+        "en": "Title is already used."
+    },
+    "FAQ_CREATED":{
+        "en": "Faq created successfully."
+    },
+    "FAQ_DELETE":{
+        "en": "Faq deleted successfully."
+    },
+    "FAQ_UPDATE":{
+        "en": "Faq updated successfully."
+    },
+    "CMS_CREATED":{
+        "en": "Page created successfully."
+    },
+    "CMS_DELETE":{
+        "en": "Page deleted successfully."
+    },
+    "CMS_UPDATE":{
+        "en": "Page updated successfully."
+    },
+    "ENTER_DESC":{
+        "en": "Please enter description."
+    },
+    "ENTER_KEYWORD":{
+        "en": "Please enter Keyword."
+    },
+    "EMAIL_CREATED":{
+        "en": "Email created successfully."
+    },
+    "EMAIL_DELETE":{
+        "en": "Email deleted successfully."
+    },
+    "EMAIL_UPDATE":{
+        "en": "Email updated successfully."
+    },
+    "COMPANY_UPDATE":{
+        "en": "Company details updated successfully."
+    },
+    "USER_PASSWORD_UPDATE":{
+        "en": "Password updated successfully."
+    },
+    "ADMIN_DELETE":{
+        "en": "Admin deleted successfully."
+    },
+    "ADMIN_UPDATE":{
+        "en": "Admin details updated successfully."
+    },
+    "ADMIN_PASSWORD_UPDATE":{
+        "en": "Password updated successfully."
+    },
+    "OTP_NOT_MATCH":{
+        "en": "OTP is incorrect."
+    },
+    "AUDITOR_DELETE":{
+        "en": "Auditor deleted successfully."
+    },
+    "AUDITOR_UPDATE":{
+        "en": "Auditor details updated successfully."
+    },
+    "AUDITOR_PASSWORD_UPDATE":{
+        "en": "Password updated successfully."
+    },
+    "GROUP_CREATED":{
+        "en": "Registration group created successfully."
+    },
+    "GROUP_UPDATE":{
+        "en": "Registration group details updated successfully."
+    },
+    "DOCUMENT_CREATED":{
+        "en": "Document created successfully."
+    },
+    "DOCUMENT_UPDATE":{
+        "en": "Document details updated successfully."
+    },
+    "ENTER_MESSAGE":{
+        "en": "Please enter message."
+    },
+    "CONTACT_REQUEST":{
+        "en": "Request submited successfully."
+    },
+    "ADMIN_DEACTIVE_STATE":{
+        "en": "Admin deactivated successfully."
+    },
+    "ADMIN_ACTIVE_STATE":{
+        "en": "Admin activated successfully."
+    },
+    "COMPANY_DEACTIVE_STATE":{
+        "en": "Company deactivated successfully."
+    },
+    "COMPANY_ACTIVE_STATE":{
+        "en": "Company activated successfully."
+    },
+    "AUDITOR_DEACTIVE_STATE":{
+        "en": "Auditor deactivated successfully."
+    },
+    "AUDITOR_ACTIVE_STATE":{
+        "en": "Auditor activated successfully."
+    },
+    "REGISTRATIION_DEACTIVE_STATE":{
+        "en": "Registration group deactivated successfully."
+    },
+    "REGISTRATIION_ACTIVE_STATE":{
+        "en": "Registration group activated successfully."
+    },
+    "REGISTRATIION_DELETE":{
+        "en": "Registration group deleted successfully."
+    },
+    "DOCUMENT_TYPE_DEACTIVE_STATE":{
+        "en": "Document type deactivated successfully."
+    },
+    "DOCUMENT_TYPE_ACTIVE_STATE":{
+        "en": "Document type activated successfully."
+    },
+    "DOCUMENT_TYPE_DELETE":{
+        "en": "Document type deleted successfully."
+    },
+    "OTHER_DOCUMENT_DEACTIVE_STATE":{
+        "en": "Other document deactivated successfully."
+    },
+    "OTHER_DOCUMENT_ACTIVE_STATE":{
+        "en": "Other document activated successfully."
+    },
+    "OTHER_DOCUMENT_DELETE":{
+        "en": "Other document deleted successfully."
+    },
+    "FAQ_DEACTIVE_STATE":{
+        "en": "Faq deactivated successfully."
+    },
+    "FAQ_ACTIVE_STATE":{
+        "en": "Faq activated successfully."
+    },
+    "ID_DOCUMENT_DEACTIVE_STATE":{
+        "en": "ID document deactivated successfully."
+    },
+    "ID_DOCUMENT_ACTIVE_STATE":{
+        "en": "ID document activated successfully."
+    },
+    "ID_DOCUMENT_DELETE":{
+        "en": "ID document deleted successfully."
+    },
+    "Password should contain at least 1 Uppercase,1 Lowercase,1 Numeric and 1 Special Character.":{
+        "en":"Password should contain at least 1 Uppercase,1 Lowercase,1 Numeric and 1 Special Character."
+    },
+    "CONTACT_DELETE":{
+        "en": "Contact us request deleted successfully."
+    },
+    "NOTIFICATION_REMOVE":{
+        "en": "Notification removed successfully."
+    },
+    "NOTIFICATION_DELETE":{
+        "en": "Notification deleted successfully."
+    },
+    "KEY_PERSONAL_CREATE":{
+        "en" :"Key Personnel created successfully."
+    },
+    "KEY_PERSONAL_UPDATE":{
+        "en": "Key Personnel details updated successfully."
+    },
+    "KEY_PERSONAL_DELETE":{
+        "en": "Key Personnel deleted successfully."
+    },
+    "REQUEST_CREATED":{
+        "en" :"Audit request created successfully."
+    },
+    "REQUEST_DELETE":{
+        "en" :"Audit request deleted successfully."
+    },
+    "DOCUMENT_UPLOAD":{
+        "en" :"SLA document uploaded successfully."
+    },
+    "DOCUMENT_SIGNED":{
+        "en" :"SLA document signed successfully."
+    },
+    "PAYMENT_CREATE":{
+        "en" :"Your payment has been successfully processed"
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

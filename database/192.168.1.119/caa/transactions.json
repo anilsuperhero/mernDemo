@@ -1,0 +1,26 @@
+{ 
+    "_id" : ObjectId("60e2d3aed96c784a84920613"), 
+    "companyId" : ObjectId("60d03460ed0a601f9c1a5d8f"), 
+    "reciptNumber" : "66151700", 
+    "auditId" : ObjectId("60deb75a1a872638f02eb7e2"), 
+    "amount" : NumberInt(150000), 
+    "transactionType" : "ONLINE", 
+    "status" : "PAID", 
+    "paymentId" : "pi_1J9oGsEhvx1GKPSoXVTkno9k", 
+    "created_at" : ISODate("2021-07-05T09:41:02.702+0000"), 
+    "updated_at" : ISODate("2021-07-05T09:41:02.702+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("60e2f051b733157ee8948f11"), 
+    "companyId" : ObjectId("60d03460ed0a601f9c1a5d8f"), 
+    "reciptNumber" : "75792728", 
+    "auditId" : ObjectId("60e2ef82b733157ee8948ee4"), 
+    "amount" : NumberInt(25000), 
+    "transactionType" : "BANKTRANSFER", 
+    "remarks" : "Invoice Id: 011202450", 
+    "status" : "PAID", 
+    "created_at" : ISODate("2021-07-05T11:43:13.986+0000"), 
+    "updated_at" : ISODate("2021-07-05T11:43:13.986+0000"), 
+    "__v" : NumberInt(0)
+}

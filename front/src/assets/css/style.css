@@ -1,0 +1,1543 @@
+/**====defoult-className===**/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.green-bg {
+  background-color: #50663c !important;
+}
+
+.green-text {
+  color: #395e15 !important;
+}
+
+.white-text {
+  color: #fff !important;
+}
+
+.black-text {
+  color: #000 !important;
+}
+
+.dark-gray {
+  color: #565353 !important;
+}
+
+.opensans-family {
+  font-family: "Open Sans", sans-serif;
+}
+
+.App-header {
+  background: #fff;
+  padding: 10px 0px;
+  height: 80px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+body {
+  padding-top: 80px !important;
+}
+
+/**====end-defoult-className===**/
+
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.login-page-contant {
+  box-sizing: border-box;
+  padding: 100px 0;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 27px;
+  margin: 10px 0;
+}
+
+.App-header {
+  background: #fff;
+  padding: 10px 0px;
+  height: 80px;
+  box-sizing: border-box;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-space ul li {
+  padding: 0;
+}
+
+.top-space ul li.user_logout {
+  padding: 10px 20px;
+}
+
+.Dialog-style_dialog-content__1klLf.account-logout
+  .Dialog-style_dialog-button-ok__dojbz {
+  background: #50663c !important;
+}
+
+.headerright li a {
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+.headerright .navbar > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.login-form {
+  background: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.top-space ul li {
+  min-height: initial !important;
+}
+
+.login-form h1 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.forgotpass {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.forgotpass .forgot {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.forgotpass span.MuiButtonBase-root {
+  padding-left: 0;
+}
+
+.login-form .MuiButton-sizeLarge {
+  /* width: 208px; */
+  float: none;
+  display: block;
+  margin: 32px auto;
+  padding: 10px 20px;
+}
+
+.forgotpass label {
+  font-weight: 500;
+}
+
+footer {
+  padding: 20px;
+  background-color: #50663c;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-contant a,
+.footer-contant a:hover {
+  text-decoration: none;
+}
+
+.footer-contant {
+  font-size: 16px;
+}
+
+.footer-link a {
+  padding: 10px;
+}
+
+.footer-link a:first-child {
+  padding-left: 0;
+}
+
+.headerright li:last-child a {
+  padding-right: 0;
+}
+
+.headerright li a,
+.headerright li a.active {
+  color: #333 !important;
+  text-decoration: none;
+}
+
+.headerright li a:hover {
+  text-decoration: none;
+}
+
+fieldset.PrivateNotchedOutline-root-1.MuiOutlinedInput-notchedOutline:hover {
+  border-color: #87c846;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #87c846 !important;
+}
+
+/**===about-page====**/
+.page-title {
+  padding: 50px 0 64px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.page-title-contant h2 {
+  font-size: 27px;
+  text-transform: uppercase;
+  font-weight: 600;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+  padding: 6px 0;
+}
+
+.page-title-contant h2:after {
+  position: absolute;
+  width: 82px;
+  height: 2px;
+  content: "";
+  background: #fff;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%);
+}
+
+.page-title-contant {
+  max-width: 52%;
+  margin: auto;
+}
+
+.page-title-contant p {
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.page-contant {
+  background: #fff;
+  padding: 24px;
+  box-shadow: 0 0px 13px rgb(0 0 0 / 15%);
+  border-radius: 8px;
+  margin-top: -30px;
+  margin-bottom: 60px;
+  width: calc(100% - 30px);
+  margin-left: 15px;
+  margin-right: 15px;
+  box-sizing: border-box;
+}
+
+.about-page-text p {
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 600;
+  padding: 15px 0;
+  margin: 0;
+}
+
+/* .main-contant-wrapper {
+  min-height: 100vh;
+} */
+
+.faq-search {
+  background: #fff;
+  box-shadow: 0 0 13px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -30px;
+}
+
+.faq-search .MuiFormControl-root {
+  flex-grow: 1;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+.faq-search .MuiFormControl-root fieldset {
+  border-color: transparent !important;
+  bottom: 0;
+}
+
+.faq-search .MuiFormControl-root .MuiInputBase-root {
+  height: 100%;
+}
+
+.faq-search .MuiInputLabel-outlined {
+  font-weight: bold;
+  color: #000;
+  font-size: 14px;
+}
+
+.faq-search .MuiButtonBase-root {
+  border-radius: 0 5px 5px 0 !important;
+}
+
+.contact-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -15px;
+}
+
+.contact-form {
+  padding: 0 24px;
+  flex: 0 0 61%;
+  max-width: 61%;
+  box-sizing: border-box;
+}
+
+.map-outer {
+  padding: 0;
+  flex: 0 0 39%;
+  max-width: 39%;
+  box-sizing: border-box;
+  margin: -24px -8px;
+  border-radius: 0 6px 6px 0 !important;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.dontctformgrp {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px -10px;
+}
+
+.formgrpouter {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 15px 10px;
+  box-sizing: border-box;
+}
+
+.formgrpouter .MuiFormControl-root {
+  width: 100%;
+}
+
+.formgrpouter.textareafull {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.formgrpouter.textareafull .MuiInputBase-root.MuiOutlinedInput-root {
+  border-radius: 3px;
+}
+
+.contact-form .MuiButtonBase-root {
+  margin: 15px 10px;
+  min-width: 150px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.5;
+  border-radius: 100px;
+}
+
+.MuiInputBase-input {
+  height: 1em;
+}
+
+.MuiOutlinedInput-inputMultiline {
+  min-height: 150px;
+}
+
+.MuiInputLabel-outlined {
+  font-size: 14px !important;
+}
+
+.checkbox_login .MuiButtonBase-root {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+login-page-contant .container {
+  height: 100vh;
+}
+
+.forgot:hover {
+  text-decoration: none;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  padding: 6% 0;
+}
+
+.error__title {
+  font-size: 220px;
+  color: #50663c;
+  text-shadow: 0 0 10px #50663c;
+  font-weight: 600;
+  line-height: 0.8;
+}
+.error__button:hover {
+  color: #fff;
+}
+.error__button {
+  background: #50663c;
+  border: none;
+  padding: 15px;
+  min-width: 220px;
+  margin: 10px 0 0 0;
+  border-radius: 100px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  color: #fff;
+}
+.error__button a {
+  color: #fff !important;
+}
+
+.error__description {
+  font-size: 28px;
+  padding: 20px 0;
+  font-weight: bold;
+  color: #000;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/**=============dashboard-page-design=================**/
+
+footer {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0px;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.after-login {
+  display: flex;
+  align-items: flex-start;
+}
+
+.notification {
+  margin-right: 20px;
+  position: relative;
+}
+
+.profile small {
+  display: block;
+  line-height: 1;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.profile {
+  font-weight: 600;
+  text-align: left;
+}
+
+.notification .notification-count {
+  position: absolute;
+  background: #000;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  color: #ffff;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.5;
+  right: -10px;
+  top: -2px;
+}
+
+.sidebar-nav {
+  width: 108px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 20%);
+  background-color: #fff;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+}
+
+.backend-page-contant {
+  background: #f3f3f3;
+  min-height: 100vh;
+  display: flex;
+}
+
+.right-contant {
+  margin-left: 0;
+  padding: 24px 50px;
+  box-sizing: border-box;
+  flex-grow: 1;
+}
+
+.sidebar-nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidebar-nav li {
+  line-height: normal;
+  text-align: center;
+  border-bottom: none;
+  position: relative;
+}
+
+.sidebar-nav li:after {
+  height: 1px;
+  width: 100%;
+  content: "";
+  background: #7f7f7f;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+}
+
+.sidebar-nav ul li a {
+  display: inline-block;
+  width: 100%;
+  padding: 18px 15px;
+  box-sizing: border-box;
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 5px solid transparent;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+}
+
+.sidebar-nav ul li a span {
+  display: block;
+  padding: 6px 0 0 0;
+}
+
+.sidebar-nav ul li a:hover,
+.sidebar-nav ul li a.active {
+  border-color: #87c846;
+}
+
+.page-sm-title {
+  font-size: 24px;
+  color: #50663c;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.small-title {
+  font-size: 22px;
+  color: #000;
+  margin: 29px 0;
+  font-weight: bold;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.detail-process {
+  background-color: #c8e2ae;
+  padding: 15px;
+}
+
+.detail-process li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: #585858;
+  font-weight: 600;
+  padding: 5px 0;
+}
+
+.detail-process li h6 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.myaccount-left .page-sm-title {
+  text-align: left;
+}
+
+.profile-outer figure {
+  width: 124px;
+  height: 124px;
+  margin: 15px auto;
+  background: #ededed;
+  border-radius: 100px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.edit-part a span {
+  display: block;
+  font-size: 13px;
+}
+
+.profile-outer p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #66615b;
+  font-weight: 500;
+}
+
+.myaccount-edit-form {
+  flex: 0 0 70%;
+  box-sizing: border-box;
+}
+
+.myaccount-edit-form .account-edit-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.myaccount-edit-form .MuiFormControl-root {
+  margin: 10px 0;
+}
+
+.account-edit-form .MuiInputLabel-outlined {
+  font-size: 13px !important;
+}
+
+.myaccount-outer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.myaccount-left {
+  flex: 0 0 30%;
+  text-align: center;
+  color: #66615b;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.myaccount-left .page-sm-title {
+  text-align: left;
+}
+
+.profile-outer figure {
+  width: 124px;
+  height: 124px;
+  margin: 15px auto 10px;
+  background: #ededed;
+  border-radius: 100px;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 8px solid #eee;
+}
+
+.edit-part a span {
+  display: block;
+  font-size: 13px;
+}
+
+.edit-part a {
+  text-decoration: none;
+  color: #66615b;
+  font-weight: 600;
+  padding: 0 10px;
+  flex: 0 0 50%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.edit-part {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  margin: 0 -18px;
+
+  padding-bottom: 15px;
+}
+
+.edit-part a span.iconout {
+  height: 50px;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  background: #ededed;
+  border-radius: 100px;
+  margin: 0 auto 10px;
+}
+
+.profile-outer p {
+  margin: 6px 0;
+  font-size: 13px;
+  color: #66615b;
+  font-weight: 500;
+}
+
+.myaccount-edit-form,
+.myaccount-edit-form-notification {
+  flex: 0 0 70%;
+  max-width: calc(70% - 20px);
+  margin-left: 20px;
+  padding: 20px !important;
+}
+
+.myaccount-edit-form .account-edit-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.myaccount-edit-form .MuiFormControl-root {
+  margin: 10px 0;
+}
+
+.account-edit-form .MuiInputLabel-outlined {
+  font-size: 13px !important;
+}
+
+.backend-page-contant.myaccount {
+  background-color: #fff;
+  /**border-top: 1px solid #f3f3f3;**/
+}
+
+.btn-row-bottom button {
+  border-radius: 100px;
+  min-width: 150px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.btn-row-bottom {
+  padding-top: 20px;
+}
+
+.Red-bg {
+  background-color: #d13636 !important;
+}
+
+.Red-bg:hover {
+  background-color: #e34848 !important;
+}
+
+.myaccount-edit-form strong.form-title {
+  display: inline-block;
+  width: 100%;
+  padding: 15px 15px;
+  background: #f1ffe2;
+  box-sizing: border-box;
+  color: #333;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.profile-outer strong {
+  color: #b63833;
+  font-weight: 600;
+}
+
+.sidebar-nav li:last-child {
+  border: none;
+}
+
+.myaccount-left.message-outer-left {
+  padding: 20px 0px 0 10px;
+}
+
+.myaccount-left.message-outer-left .page-sm-title {
+  padding-left: 15px;
+}
+
+.myaccount-left.message-outer-left .people {
+  margin: 24px 0;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.message-outer-left .people li {
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #e0e0e0;
+  position: relative;
+  padding-right: 80px;
+  box-sizing: border-box;
+}
+
+.message-outer-left .people li img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 100px;
+}
+
+.message-outer-left .people li .name {
+  float: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.message-outer-left .people li p.status {
+  margin: 0;
+  font-size: 12px;
+  color: #838383;
+  padding-left: 50px;
+}
+
+.timeright {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 12px;
+  text-align: center;
+  padding: 15px;
+}
+
+.timeright span {
+  display: block;
+}
+
+.timeright .offline {
+  font-size: 14px;
+  color: #000;
+  font-weight: 600;
+}
+
+.navtoggle {
+  display: none !important;
+}
+
+.profile-outer figure img {
+  max-width: 100%;
+}
+
+/**====message====**/
+
+.chating-box {
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+
+.chating-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d8f7b8;
+  padding: 14px 40px;
+  box-sizing: border-box;
+}
+
+.chating-head-left {
+  display: flex;
+  align-items: center;
+}
+
+.chatuser {
+  text-align: left;
+  padding: 0 15px;
+  color: #000;
+}
+
+.chating-head-left figure {
+  margin: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.chatuser .user-name {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.chatuser .sta-cs {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.chating-head-left figure img {
+  width: 100%;
+}
+
+.fixed-top {
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 0 10px rgb(0 0 0 / 25%);
+}
+
+.footer-contant {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mobile-nav-btn {
+  display: none !important;
+}
+
+.chating-header .chating-nav {
+  padding: 10px;
+  min-width: 32px;
+  font-size: 28px;
+}
+
+.message-outer-left .people li:hover {
+  background-color: #dfe6ec;
+}
+
+.chating-box {
+  background: #f3f3f3;
+}
+
+.chating-box-list-outer {
+  padding: 36px;
+}
+
+.chating-box-list-outer li {
+  display: flex;
+  align-items: flex-end;
+  font-size: 13px;
+  color: #8b8b8b;
+  margin-bottom: 36px;
+}
+
+.chating-box-list-outer li .message-user-name {
+  display: block;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 1;
+  font-weight: 500;
+  color: #838383;
+}
+
+.chating-box-list-outer li .usr-info {
+  min-width: 80px;
+  text-align: center;
+  overflow: hidden;
+  padding-right: 15px;
+}
+
+.message-outer {
+  background: #fff;
+  padding: 15px 24px;
+  border-radius: 15px 15px 15px 0;
+  line-height: 1.6;
+}
+
+.message-timing {
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0 0 0 15px;
+  color: #a5a5a5;
+}
+
+.chating-box-list-outer li.send-message {
+  padding-right: 140px;
+}
+
+.message-outer p {
+  margin: 0;
+}
+
+.chating-box-list-outer li .usr-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+}
+
+.chating-box-list-outer li.recivedmessage {
+  flex-direction: row-reverse;
+  padding-left: 140px;
+}
+
+.chating-box-list-outer li.recivedmessage .message-timing {
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+.chating-box-list-outer li.recivedmessage .usr-info {
+  padding-right: 0;
+  padding-left: 15px;
+}
+
+.chating-box-list-outer .chating-form {
+  background: #ffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+  top: 10px;
+}
+
+.chating-box-list-outer .chating-form .MuiFormControl-root.MuiTextField-root {
+  width: 100%;
+}
+
+.chating-box-list-outer
+  .chating-form
+  .MuiFormControl-root.MuiTextField-root
+  .MuiInputBase-root:before {
+  display: none;
+}
+
+.chating-box-list-outer
+  .chating-form
+  .MuiFormControl-root.MuiTextField-root
+  .MuiInputBase-root {
+  padding: 0;
+  background: transparent;
+}
+
+.chating-box-list-outer
+  .chating-form
+  .MuiFormControl-root.MuiInputBase-root.MuiFilledInput-root {
+  background: transparent;
+}
+
+.chating-box-list-outer
+  .chating-form
+  .MuiFormControl-root.MuiTextField-root
+  .MuiInputBase-root
+  input {
+  padding: 20px;
+  font-size: 13px;
+}
+
+footer .copyright {
+  text-align: center;
+  width: 100%;
+}
+
+.chating-box-list-outer .chating-form label {
+  font-size: 14px;
+}
+
+.dashboard-header .MuiContainer-root {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.message-outer-left .people li:last-child {
+  border-bottom: none;
+}
+
+.top-link-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: none;
+  cursor: pointer;
+}
+
+.top-link-btn.openbtn {
+  display: block;
+}
+
+.dashboard-header .navtoggle {
+  box-sizing: border-box;
+  padding: 5px 10px;
+  min-width: initial;
+  line-height: 1;
+  margin-left: -10px;
+}
+
+/**=========notifications=====**/
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.notification-header .clear-btn,
+.notification-header .clear-btn:hover {
+  background-color: #d01b3d;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 100px;
+  height: 40px;
+  text-transform: capitalize;
+}
+
+.notification-list {
+  background-color: #fff;
+  padding: 15px 100px 15px 15px;
+  position: relative;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  margin-bottom: 24px;
+}
+
+.notification-list p {
+  color: #7a7a7a;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.notification-list strong {
+  color: #000;
+}
+
+.timedate {
+  color: #87c846;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 3px 0 0 0;
+}
+
+.notificaion-list-outer .MuiButton-root img {
+  width: 16px;
+}
+
+.notificaion-list-outer .MuiButton-root {
+  position: absolute;
+  right: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  min-width: initial;
+  width: 45px;
+  height: 45px;
+  background: #fff;
+  border-radius: 100px;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  opacity: 0;
+}
+
+.notification-list:hover .MuiButton-root {
+  opacity: 1;
+  background-color: #fff;
+}
+
+.notification-list:hover {
+  background-color: #c8e2ae;
+}
+
+/**=====audit-request========**/
+
+.request-form .MuiFormControl-root,
+.MuiInputBase-root {
+  display: block;
+}
+
+.request-form .MuiFormControl-root .MuiInputBase-root,
+.MuiInputBase-root {
+  width: 100%;
+}
+
+.request-form form > .MuiFormControl-root.MuiTextField-root,
+.request-form form > .MuiInputBase-root.MuiOutlinedInput-root {
+  margin: 20px 0;
+}
+
+.auditrequest-outer {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0px;
+  flex-wrap: wrap;
+}
+
+.auditrequest-outer .request-form {
+  flex: 0 0 42%;
+  max-width: 42%;
+  padding-right: 20px;
+}
+
+.registration-grp {
+  flex: 0 0 58%;
+  padding-left: 20px;
+  max-width: 58%;
+  margin-top: -10px;
+}
+
+.registration-grp h5 {
+  font-size: 14px;
+  color: #636363;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.multiselect-group li {
+  border-radius: 100px;
+  font-size: 13px;
+  position: relative;
+  margin: 10px 5px;
+  box-sizing: border-box;
+  float: left;
+  font-weight: 600;
+  color: #636363;
+}
+
+.multiselect-group ul {
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  margin: 0 -5px;
+}
+
+.multiselect-group li label {
+  background-color: #fff;
+  padding: 15px 15px;
+  border-radius: 100px;
+  display: inline-block;
+  width: 100%;
+}
+
+.multiselect-group li input[type="checkbox"] {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 2;
+  margin: 0;
+}
+
+.auditrequest-outer .request-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.request-form-footer .tearmcondition,
+.request-form-footer .tearmcondition a {
+  font-size: 13px;
+  color: #636363;
+  margin: 0 0 15px 0;
+}
+
+.request-form-footer .form-submit-btn {
+  width: 132px;
+  background: #87c846;
+  color: #fff;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-size: 16px;
+  padding: 8px 15px;
+  border-radius: 100px;
+  margin-top: 10px;
+}
+
+/* .MuiButton-root:hover {
+  background-color: #8ecc50 !important;
+} */
+
+.multiselect-group li input[type="checkbox"]:checked + label {
+  background: #50663c;
+  color: #fff;
+}
+
+.MuiFormLabel-root.Mui-focused {
+  color: #636363 !important;
+}
+
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #636363 !important;
+}
+
+.faq-search .MuiFormLabel-root.Mui-focused {
+  background: #eee !important;
+  padding: 3px 10px;
+  border-radius: 100px;
+}
+
+/**=====modal======**/
+.cinfirm-modal-outer .makeStyles-paper-2 {
+  width: 450px;
+  margin: auto;
+  top: 50%;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  text-align: center;
+  padding: 0;
+  border-radius: 24px;
+  border: none;
+  overflow: hidden;
+}
+
+.cinfirm-modal-outer .makeStyles-paper-2 h3 {
+  margin: 0;
+  font-size: 15px;
+  padding: 24px;
+  background-color: #50663c;
+  color: #fff;
+}
+
+.cinfirm-modal-outer .makeStyles-paper-2 .auditrequest-confirm {
+  outline: none !important;
+}
+
+.cinfirm-modal-outer h6 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 0 10px 0;
+  line-height: 1.5;
+}
+
+.cinfirm-modal-outer .modal-btn-part {
+  padding: 15px 0;
+}
+
+.cinfirm-modal-outer .modal-btn-part .btn {
+  min-width: 138px;
+  padding: 10px;
+  border-radius: 100px;
+  border: none;
+  margin: 0 10px;
+  font-weight: bold;
+  height: 44px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.cinfirm-modal-outer .modal-btn-part .btn.green-btn {
+  background-color: #87c846;
+}
+
+.cinfirm-modal-outer .modal-btn-part .btn.red-btn {
+  background-color: #c8464f;
+}
+
+.confirm-modal-body {
+  padding: 24px;
+}
+
+.key-person {
+  font-size: 16px;
+  font-weight: bold;
+  color: #50663c;
+  display: inline-block;
+  width: 100%;
+  padding-top: 15px;
+}
+
+.profile-draop-list {
+  position: absolute;
+  background: #50663c;
+  opacity: 1;
+  top: 40px;
+  right: 0;
+  width: 180px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  display: none;
+}
+
+.after-login {
+  position: relative;
+  padding-right: 24px;
+  cursor: pointer;
+}
+
+.profile i.fas {
+  position: absolute;
+  right: 0;
+  font-size: 11px;
+}
+
+.profile-draop-list ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-draop-list ul li a {
+  text-align: center;
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+  border-bottom: 1px solid #5f764b;
+  color: #fff;
+}
+
+.profile-draop-list ul li {
+  width: 100%;
+}
+
+.profile-draop-list ul li:last-child a {
+  border: none;
+  padding-right: 20px;
+}
+
+.profile-draop-list ul li a:hover {
+  color: #ddd;
+}
+
+.showprofilenav .profile-draop-list {
+  display: block;
+}
+
+.request-form .MuiOutlinedInput-root {
+  border-radius: 10px !important;
+}
+
+.request-form .MuiOutlinedInput-input {
+  padding: 15px 14px;
+}
+
+.overlay-blr {
+  visibility: hidden;
+  position: fixed;
+  transition: 0.4s ease all;
+  background: #000;
+  opacity: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/**====designing-update=========**/
+.auditrequest-outer .request-form,
+.registration-grp,
+.myaccount-left,
+.myaccount-edit-form {
+  background-color: #fff;
+  box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+
+.myaccount-edit-form-notification {
+  background-color: #f3f3f3;
+  box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+
+.registration-grp {
+  margin-left: 20px;
+  flex: calc(58% - 20px);
+  margin-top: 0;
+}
+
+.multiselect-group li label {
+  background: #f5f5f5;
+}
+
+.right-contant {
+  padding: 24px 40px;
+}
+
+.backend-page-contant,
+.backend-page-contant.myaccount {
+  background: #f3f3f3;
+}
+
+.myaccount-header {
+  margin-bottom: 24px;
+}
+
+.sidebar-nav li i {
+  font-size: 24px;
+}
+
+.notification i {
+  font-size: 28px;
+}
+
+button.btn.btn-primary.top-scroll {
+  margin: 0 auto;
+  width: 120px;
+  height: 40px;
+  font-weight: 500;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 3px 16px 0 rgb(0 0 0 / 11%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-transform: translateY(-50px);
+  transform: translateY(-50px);
+  transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  visibility: hidden;
+  cursor: pointer;
+  border: 1px solid #e0e0e0;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 100px;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+}
+
+.gototop button.btn.btn-primary.top-scroll {
+  visibility: visible;
+  top: 150px;
+}
+
+.btn.btn-primary.top-scroll span.MuiButton-label {
+  display: flex;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.btn.btn-primary.top-scroll span.MuiButton-label i {
+  margin-right: 5px;
+}
+
+.top-space > div {
+  top: 10px !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

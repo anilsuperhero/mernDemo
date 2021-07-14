@@ -1,0 +1,17 @@
+{ 
+    "_id" : ObjectId("6082b7ff08abee6b887aa405"), 
+    "email" : "admin@audits.in", 
+    "name" : "Community Audits Australia", 
+    "support_email" : "info@audits.in", 
+    "address" : "6/78, Near Kardhani Shopping Center, Hari Marg, Roop Vihar Colony, Malviya Nagar, Jaipur, Rajasthan 302017", 
+    "copy_right" : "© 2021 - Community Audits Australia. All Rights Reserved", 
+    "email_header" : "<p><a href=\"javascript:void();\"><img alt=\"loho\" src=\"http://13.233.46.34:2021/static/logo.png\" style=\"width:160px\" /></a></p>\n", 
+    "email_footer" : "<p>CAA&nbsp;Team</p>\n", 
+    "created_at" : ISODate("2021-04-23T12:05:19.367+0000"), 
+    "updated_at" : ISODate("2021-07-02T09:27:45.920+0000"), 
+    "number" : "123456789", 
+    "sort_name" : "CAA", 
+    "definition" : "<p>Definition of key Personnel as per the National Disability Insurance Scheme Act 2013 (Section 11A)</p>\n\n<ol>\n\t<li>Each of the following is one of the key personnel of a person or entity:\n\t<ol>\n\t\t<li>a member of the group of persons who is responsible for the executive decisions of the person or entity</li>\n\t\t<li>any other person who has authority or responsibility for (or significant influence over) planning, directing, or controlling the activities of the person or entity.\n\t\t<p>&nbsp;</p>\n\t\t</li>\n\t</ol>\n\t</li>\n\t<li>Without limiting paragraph (1)(a), a reference in that paragraph to a person who is responsible for the executive decisions of a person or entity includes:\n\t<ol>\n\t\t<li>&nbsp;if the person or entity is a body corporate that is incorporated, or taken to be incorporated, under the Corporations Act 2001&mdash;a director of the body corporate for the purposes of that Act; and</li>\n\t\t<li>in any other case&mdash;a member of the person&rsquo;s or entity&rsquo;s governing body.</li>\n\t\t<li>&ldquo;Key Personnel&rdquo; means individuals who hold key executive, management or operationalpositions in an organisation, such as directors, managers, board members, chief executiveofficeror chairperson.</li>\n\t</ol>\n\t</li>\n</ol>\n", 
+    "payment_terms" : "<p>Making your own terms and conditions for your website is hard, not impossible,</p>\n", 
+    "banck_information" : "<ul>\n\t<li>Account Holder Name: CAA</li>\n\t<li>Banck Name: ABC</li>\n\t<li>Account Number: 100000100250452</li>\n\t<li>Sift Code: ADC00215</li>\n</ul>\n"
+}

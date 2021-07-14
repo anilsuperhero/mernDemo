@@ -1,0 +1,63 @@
+{ 
+    "_id" : ObjectId("60dc3ed27eabea6ae082db04"), 
+    "isDeleted" : false, 
+    "deletedAt" : null, 
+    "status" : NumberInt(1), 
+    "extension" : [
+        ".pdf", 
+        ".jpg", 
+        ".jpeg", 
+        ".xls"
+    ], 
+    "type" : "Company", 
+    "isOther" : false, 
+    "isIdDocument" : false, 
+    "id_document_type" : "Primary", 
+    "title" : "Document 1", 
+    "registration_group_id" : ObjectId("60d033aded0a601f9c1a5d75"), 
+    "description" : "<p>Document 1</p>\n", 
+    "created_at" : ISODate("2021-06-30T09:52:18.180+0000"), 
+    "updated_at" : ISODate("2021-06-30T09:52:18.180+0000"), 
+    "slug" : "document-1", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("60dd6497cc95b827743cdcf5"), 
+    "isDeleted" : false, 
+    "deletedAt" : null, 
+    "status" : NumberInt(1), 
+    "extension" : [
+        ".pdf", 
+        ".jpg"
+    ], 
+    "type" : "Staff", 
+    "isOther" : false, 
+    "isIdDocument" : false, 
+    "id_document_type" : "Primary", 
+    "title" : "qualification 0101", 
+    "registration_group_id" : ObjectId("60d033aded0a601f9c1a5d75"), 
+    "created_at" : ISODate("2021-07-01T06:45:43.498+0000"), 
+    "updated_at" : ISODate("2021-07-01T06:45:43.498+0000"), 
+    "slug" : "qualification-0101", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("60dd64d4cc95b827743cdcff"), 
+    "isDeleted" : false, 
+    "deletedAt" : null, 
+    "status" : NumberInt(1), 
+    "extension" : [
+        ".pdf", 
+        ".jpg"
+    ], 
+    "type" : "Staff", 
+    "isOther" : false, 
+    "isIdDocument" : false, 
+    "id_document_type" : "Primary", 
+    "title" : "qualification 0103", 
+    "registration_group_id" : ObjectId("60d033a5ed0a601f9c1a5d71"), 
+    "created_at" : ISODate("2021-07-01T06:46:44.391+0000"), 
+    "updated_at" : ISODate("2021-07-01T06:46:44.391+0000"), 
+    "slug" : "qualification-0103", 
+    "__v" : NumberInt(0)
+}

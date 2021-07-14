@@ -1,0 +1,375 @@
+.MuiFormHelperText-contained {
+  margin-left: 5px !important;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+  /* width of the entire scrollbar */
+}
+
+* {
+  scrollbar-width: thin;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.App-header {
+  z-index: 99;
+}
+
+/**===faq-accordian====**/
+.faq-accordian .MuiAccordion-rounded {
+  margin: 10px 0;
+  box-shadow: none;
+  border: 1px solid #eaeaea !important;
+  background: #fff;
+  border-radius: 0 !important;
+  outline: none;
+  position: relative;
+}
+
+.faq-accordian .MuiAccordion-rounded:before,
+.faq-accordian .MuiAccordion-rounded:after {
+  display: none;
+}
+
+.faq-accordian {
+  padding: 20px 0 0 0;
+}
+
+.searchicon span {
+  margin: 0;
+}
+
+.faq-search .MuiInputLabel-outlined {
+  font-weight: 400;
+}
+
+.faq-accordian .MuiAccordion-rounded .MuiAccordionSummary-content.Mui-expanded {
+  margin: 0;
+}
+
+.faq-accordian .MuiAccordion-rounded .MuiAccordionSummary-root.Mui-expanded {
+  min-height: auto;
+}
+
+.faq-accordian
+  .MuiAccordion-rounded
+  .MuiAccordionSummary-content.Mui-expanded
+  p {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+
+.faq-accordian .MuiAccordion-rounded .MuiAccordionDetails-root {
+  padding-top: 0;
+}
+
+.MuiPickersToolbar-toolbar {
+  background-color: #50663c !important;
+}
+
+.MuiPickersDay-daySelected {
+  background-color: #50663c !important;
+}
+
+.MuiButton-textPrimary {
+  color: #50663c !important;
+}
+
+.pagination {
+  float: right !important;
+}
+
+.tableHead {
+  cursor: pointer;
+}
+
+.MuiPaginationItem-textPrimary.Mui-selected {
+  background-color: #50663c !important;
+}
+
+.card_header {
+  background-color: #c8e2ae !important;
+}
+
+.multiselect-group ul {
+  height: 500px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 101.5%;
+}
+
+.multiselect-group {
+  overflow: hidden;
+}
+
+.file-outer {
+  max-width: 100%;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.file-pic {
+  box-sizing: border-box;
+  text-align: center;
+}
+.nots strong {
+  display: block;
+}
+
+.nots {
+  padding-bottom: 15px;
+}
+
+.file-outer span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.file-outer {
+  padding-bottom: 15px;
+}
+
+.nots strong {
+  display: block;
+  color: #2f2f2f;
+}
+
+.nots {
+  padding: 15px;
+  background: #ffedee;
+  border: 1px solid #e6c5c7;
+}
+
+.file-outer span {
+  display: block;
+  margin-bottom: 0;
+}
+
+.file-outer {
+  padding-bottom: 15px;
+}
+
+.remark strong {
+  display: block;
+}
+.remark-advance {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  padding: 15px 10px;
+}
+
+.remark-advance strong {
+  display: block;
+}
+
+.remark-advance .remark,
+.remark-advance .advance {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+}
+
+.remark-advance .remark:after {
+  content: "";
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  background: #dcdcdc;
+  right: 0;
+  top: 0;
+}
+.remarkonly {
+  background: #eee;
+  padding: 10px;
+}
+.remarkonly {
+  background: #eee;
+  padding: 10px;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.remarkonly strong {
+  display: block;
+}
+
+span.amount-value {
+  background: #50663c;
+  display: inline-block;
+  padding: 5px 20px;
+  color: #fff;
+  border-radius: 100px;
+  min-width: 150px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.amount h5 {
+  font-size: 24px;
+}
+.file-pic img {
+  width: 52px;
+}
+
+.amount {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.amount h5 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.nots {
+  text-align: center;
+}
+
+.btn-row {
+  padding: 20px 0 0 0;
+  text-align: center;
+}
+
+.btn-row .btn {
+  width: 100px;
+  padding: 10px;
+  color: #fff;
+  margin: 0 5px;
+  border: 1px solid #333;
+  background: #50663c !important;
+}
+.amount-value {
+  font-size: 16px;
+}
+.dropzone {
+  text-align: center;
+  padding: 20px;
+  border: 3px dashed #eeeeee;
+  background-color: #eeeeee;
+  color: #000;
+  margin-bottom: 20px;
+  height: 250px;
+}
+.dropzone p {
+  padding-top: 15%;
+}
+
+.Uploaded-image {
+  text-align: center;
+}
+
+.Uploaded-image .image {
+  display: inline-block;
+  position: relative;
+}
+
+.Uploaded-image .image .nav-link-remove {
+  position: absolute;
+  background: #cb0508;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 50px;
+  right: -15px;
+  cursor: pointer;
+  line-height: 1.7;
+  top: -5px;
+}
+.file_name {
+  cursor: pointer;
+}
+
+.card-detail-outer label {
+  width: 100%;
+  padding: 10px 0;
+}
+
+.card-detail-outer .StripeElement {
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0 0 0;
+}
+
+.card-detail-outer {
+  padding: 0 10px;
+}
+.card-detail-outer .MuiButtonBase-root span span {
+  display: none;
+}
+
+.card-detail-outer .MuiButtonBase-root {
+  min-width: 80px;
+}
+
+.card-detail-outer .MuiButtonBase-root span span {
+  display: none;
+}
+
+.card-detail-outer .MuiButtonBase-root {
+  min-width: 80px;
+}
+
+.payoption label.MuiFormControlLabel-root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.payoption fieldset {
+  width: 100%;
+}
+
+.payoption
+  label.MuiFormControlLabel-root
+  span.MuiButtonBase-root.MuiIconButton-root {
+  min-width: initial;
+  padding-left: 0px;
+}
+
+.payoption
+  label.MuiFormControlLabel-root
+  span.MuiButtonBase-root.MuiIconButton-root
+  span.MuiIconButton-label {
+  padding: 0;
+  display: block;
+}
+
+form.payoption {
+  padding: 8px 0;
+}
+
+@media screen and (max-width: 575px) {
+  .card-detail-outer {
+    padding: 0 0px;
+  }
+
+  .btn-row .btn {
+    width: 75px;
+    padding: 5px 10px;
+    background: #fff;
+    margin: 0 4px;
+    border: 1px solid #333;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .login-page-contant {
+    /* height: 100vh; */
+    padding: 9.2% 0;
+  }
+}

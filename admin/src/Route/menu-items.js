@@ -1,0 +1,152 @@
+export default {
+  items: [
+    {
+      id: "pages",
+      title: "",
+      type: "group",
+      icon: "icon-pages",
+      children: [
+        {
+          id: "dashboard",
+          title: "Dashboard",
+          type: "item",
+          url: "/dashboard",
+          icon: "feather icon-home",
+        },
+        {
+          id: "audit-request",
+          title: "Audit Request",
+          type: "item",
+          url: "/audit-request",
+          icon: "fas fa-file-signature",
+        },
+        {
+          id: "users",
+          title: "User Management",
+          type: "collapse",
+          icon: "far fa-user-circle",
+          children: [
+            {
+              id: "admin",
+              title: "Admin",
+              type: "item",
+              url: "/users/admin",
+            },
+            {
+              id: "customer",
+              title: "Company",
+              type: "item",
+              url: "/users/customer",
+            },
+            {
+              id: "auditor",
+              title: "Auditor",
+              type: "item",
+              url: "/users/auditor",
+            },
+          ],
+        },
+        {
+          id: "documents",
+          title: "Manage Documents",
+          type: "collapse",
+          icon: "far fa-file-word",
+          children: [
+            {
+              id: "registration-group",
+              title: "Registration Groups",
+              type: "item",
+              url: "/documents/registration-group",
+            },
+            {
+              id: "id-document",
+              title: "ID Documents",
+              type: "item",
+              url: "/documents/id-document",
+            },
+            // {
+            //   id: "others",
+            //   title: "Others",
+            //   type: "item",
+            //   url: "/documents/others",
+            // },
+          ],
+        },
+        {
+          id: "cms",
+          title: "Page Management",
+          type: "item",
+          url: "/cms",
+          icon: "far fa-file-alt",
+        },
+        {
+          id: "email",
+          title: "Email Template Management",
+          type: "item",
+          url: "/email",
+          icon: "fas fa-envelope-open-text",
+        },
+        {
+          id: "faq",
+          title: "FAQ's Management",
+          type: "item",
+          url: "/faq",
+          icon: "far fa-question-circle",
+        },
+        {
+          id: "key-personnel",
+          title: "Key Personnel",
+          type: "item",
+          url: "/key-personnel",
+          icon: "fas fa-users",
+        },
+        {
+          id: "contact-us",
+          title: "Contact Us",
+          type: "item",
+          url: "/contact-us",
+          icon: "far fa-envelope",
+        },
+        {
+          id: "transaction",
+          title: "Transactions",
+          type: "item",
+          url: "/transaction",
+          icon: "fas fa-hands",
+        },
+        {
+          id: "account",
+          title: "My Account",
+          type: "collapse",
+          icon: "fas fa-users-cog",
+          children: [
+            {
+              id: "profile",
+              title: "My Profile",
+              type: "item",
+              url: "/account/profile",
+            },
+            {
+              id: "password",
+              title: "Change Password",
+              type: "item",
+              url: "/account/password",
+            },
+            {
+              id: "notification",
+              title: "Notification",
+              type: "item",
+              url: "/account/notification",
+            },
+            {
+              id: "settings",
+              title: "Platform Settings",
+              type: "item",
+              url: "/account/setting",
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};

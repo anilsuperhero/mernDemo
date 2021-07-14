@@ -1,0 +1,78 @@
+{ 
+    "_id" : ObjectId("60d03056ed0a601f9c1a5cdb"), 
+    "globalHeader" : true, 
+    "globalFooter" : true, 
+    "title" : "Admin will receive this email when there is a new contact us request", 
+    "description" : "<p style=\"color: black;\">Dear <strong>[NAME]</strong></p>\n\n<p style=\"color: black;\">You have received a new contact request, please click below link to check more details.</p>\n\n<center style=\"color: black;\"><a href=\"[CONTACT_US_LINK]\" rel=\"nofollow\" style=\"display: inline-block ; padding: 11px 30px ; margin: 20px 0px 30px ; font-size: 15px ; color: #fff ; background: #87c846; border-radius: 60px ; text-decoration: none\" target=\"_other\">Contact Us</a></center>\n\n<p style=\"color: black;\">If you&rsquo;re having trouble clicking the &#39;Contact Us&#39; button, copy and paste the URL below into your web browser:</p>\n\n<p style=\"color: black;\">[LINK]</p>\n\n<p style=\"color: black;\">If you have any questions, please email us at [SUPPORT_EMAIL]</p>\n", 
+    "subject" : "Contact us Request", 
+    "keyword" : "<div class=\"page_content table-responsive\">\n<table class=\"table table-bordered\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th width=\"\\&quot;50\\&quot;\">&nbsp;</th>\n\t\t\t<th width=\"\\&quot;400\\&quot;\">Information PlaceHolder</th>\n\t\t\t<th>Explaination</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>[NAME]</td>\n\t\t\t<td>This will be replaced by First Name and Last Name of user.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>[LINK]]</td>\n\t\t\t<td>This will be replaced by conatct us link in email.</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n", 
+    "created_at" : ISODate("2021-06-21T06:23:18.243+0000"), 
+    "updated_at" : ISODate("2021-06-21T06:23:18.243+0000"), 
+    "slug" : "admin-will-receive-this-email-when-there-is-a-new-contact-us-request", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("60d0308bed0a601f9c1a5ce2"), 
+    "globalHeader" : true, 
+    "globalFooter" : true, 
+    "title" : "User will receive this email when there is a new notification", 
+    "description" : "<p>Dear [FirstName] [LastName],</p>\n\n<p style=\"color: black;\">You have a new notification, kindly check in your account.</p>\n\n<p style=\"color: black;\"><span>[ACTION].</span></p>\n\n<p style=\"color: black;\">&nbsp;</p>\n\n<center>&nbsp;</center>\n", 
+    "subject" : "You have a new notification", 
+    "keyword" : "<div class=\"page_content table-responsive\">\n<table class=\"table table-bordered\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th width=\"\\&quot;50\\&quot;\">&nbsp;</th>\n\t\t\t<th width=\"\\&quot;400\\&quot;\">Information PlaceHolder</th>\n\t\t\t<th>Explaination</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>[FirstName] [LastName]</td>\n\t\t\t<td>This will be replaced by First Name and Last Name of user.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>[ACTION]</td>\n\t\t\t<td>This will be replaced by ACTION in email.</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n", 
+    "created_at" : ISODate("2021-06-21T06:24:11.077+0000"), 
+    "updated_at" : ISODate("2021-06-21T06:24:11.077+0000"), 
+    "slug" : "notification", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("60d030deed0a601f9c1a5ce9"), 
+    "globalHeader" : true, 
+    "globalFooter" : true, 
+    "title" : "This email is sent to when a new user registered", 
+    "description" : "<p>Dear [FirstName] [LastName],</p>\n\n<p>Your account has been successfully created by the administrator, please check the below details.</p>\n\n<p>Email: [EMAIL]</p>\n\n<p>Password: [PASSWORD]</p>\n\n<p>Thanks</p>\n", 
+    "subject" : "Account Confirmation", 
+    "keyword" : "<div class=\"page_content table-responsive\">\n<table class=\"table table-bordered\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th width=\"\\&quot;50\\&quot;\">&nbsp;</th>\n\t\t\t<th width=\"\\&quot;400\\&quot;\">Information PlaceHolder</th>\n\t\t\t<th>Explaination</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>[FirstName] [LastName]</td>\n\t\t\t<td>This will be replaced by First Name and Last Name of user.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>[EMAIL]</td>\n\t\t\t<td>This will be replaced by EMAIL in email.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>3</td>\n\t\t\t<td>[PASSWORD]</td>\n\t\t\t<td>This will be replaced by PASSWORD in email.</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n", 
+    "created_at" : ISODate("2021-06-21T06:25:34.629+0000"), 
+    "updated_at" : ISODate("2021-06-21T06:25:34.629+0000"), 
+    "slug" : "this-email-is-sent-to-when-a-new-user-registered", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("60d03111ed0a601f9c1a5cf0"), 
+    "globalHeader" : true, 
+    "globalFooter" : true, 
+    "title" : "This email is sent to user when user clicks Forgot Password", 
+    "description" : "<p>Dear [FirstName] [LastName],</p>\n\n<p>To reset your password OTP is : [OTP]</p>\n\n<p>Thanks</p>\n", 
+    "subject" : "Forgot Password", 
+    "keyword" : "<div class=\"page_content table-responsive\">\n<table class=\"table table-bordered\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th width=\"\\&quot;50\\&quot;\">&nbsp;</th>\n\t\t\t<th width=\"\\&quot;400\\&quot;\">Information PlaceHolder</th>\n\t\t\t<th>Explaination</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>[FirstName] [LastName]</td>\n\t\t\t<td>This will be replaced by First Name and Last Name of user.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>[OTP]</td>\n\t\t\t<td>This will be replaced by OTP in email.</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n", 
+    "created_at" : ISODate("2021-06-21T06:26:25.772+0000"), 
+    "updated_at" : ISODate("2021-06-21T06:26:25.772+0000"), 
+    "slug" : "forgot-password", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("60d1e2787e93311c1c748930"), 
+    "globalHeader" : true, 
+    "globalFooter" : true, 
+    "title" : "This email is sent to when create a new key personnel", 
+    "description" : "<p>Dear [FirstName] [LastName],</p>\n\n<p>[COMPANY_NAME]&nbsp; add your account as key personnel.</p>\n\n<p>Thanks</p>\n", 
+    "subject" : "New key personnel", 
+    "keyword" : "<div class=\"page_content table-responsive\">\n<table class=\"table table-bordered\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th width=\"\\&quot;50\\&quot;\">&nbsp;</th>\n\t\t\t<th width=\"\\&quot;400\\&quot;\">Information PlaceHolder</th>\n\t\t\t<th>Explaination</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>[FirstName] [LastName]</td>\n\t\t\t<td>This will be replaced by First Name and Last Name of user.</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>[COMPANY_NAME]</td>\n\t\t\t<td>This will be replaced by COMPANY_NAME in company name.</td>\n\t\t</tr>\n\t</tbody>\n</table>\n</div>\n", 
+    "created_at" : ISODate("2021-06-22T13:15:36.169+0000"), 
+    "updated_at" : ISODate("2021-06-22T13:15:36.169+0000"), 
+    "slug" : "this-email-is-sent-to-when-create-a-new-key-personnel", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("60e2c9f25cf3d26684e76196"), 
+    "globalHeader" : true, 
+    "globalFooter" : true, 
+    "title" : "This email is sent to when create a new payment", 
+    "description" : "<p>Dear [FirstName] [LastName],</p>\n\n<p>Your payment has been successfully processed, please check the attached file for payment&nbsp;receipt</p>\n\n<p>Thanks</p>\n", 
+    "subject" : "payment successful", 
+    "keyword" : "<table class=\"table table-bordered\">\n\t<thead>\n\t\t<tr>\n\t\t\t<th width=\"\\&quot;50\\&quot;\">&nbsp;</th>\n\t\t\t<th width=\"\\&quot;400\\&quot;\">Information PlaceHolder</th>\n\t\t\t<th>Explaination</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>[FirstName] [LastName]</td>\n\t\t\t<td>This will be replaced by First Name and Last Name of user.</td>\n\t\t</tr>\n\t</tbody>\n</table>\n", 
+    "created_at" : ISODate("2021-07-05T08:59:30.927+0000"), 
+    "updated_at" : ISODate("2021-07-05T08:59:30.927+0000"), 
+    "slug" : "payment-successful", 
+    "__v" : NumberInt(0)
+}
